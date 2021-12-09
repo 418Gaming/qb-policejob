@@ -1,52 +1,61 @@
 Config = {}
 
 Config.Objects = {
-    ["cone"] = {model = `prop_roadcone02a`, freeze = false},
-    ["barier"] = {model = `prop_barrier_work06a`, freeze = true},
-    ["schotten"] = {model = `prop_snow_sign_road_06g`, freeze = true},
-    ["tent"] = {model = `prop_gazebo_03`, freeze = true},
-    ["light"] = {model = `prop_worklight_03b`, freeze = true},
+    ["cone"] = {model = "prop_roadcone02a", freeze = false},
+    ["barier"] = {model = "prop_barrier_work06a", freeze = true},
+    ["schotten"] = {model = "prop_snow_sign_road_06g", freeze = true},
+    ["tent"] = {model = "prop_gazebo_03", freeze = true},
+    ["light"] = {model = "prop_worklight_03b", freeze = true},
 }
 
 Config.Locations = {
    ["duty"] = {
-       [1] = vector3(440.085, -974.924, 30.689),
-       [2] = vector3(-449.811, 6012.909, 31.815),
+       [1] = vector3(468.5, -978.23, 26.27), --Mission Row PD Bulletin near Garage
+       [2] = vector3(-449.811, 6012.909, 31.815), --Paleto Bay PD Front Desk
+       [3] = vector3(1852.07, 3688.02, 34.22), --Sandy BCSO
    },
    ["vehicle"] = {
-       [1] = vector4(448.159, -1017.41, 28.562, 90.654),
-       [2] = vector4(471.13, -1024.05, 28.17, 274.5),
-       [3] = vector4(-455.39, 6002.02, 31.34, 87.93),
+       [1] = vector4(458.73, -994.36, 25.7, 3.01), --Mission Row Garage
+       [2] = vector4(-455.39, 6002.02, 31.34, 87.93), --Paleto Bay Back lot
+       [3] = vector4(1881.39, 3692.77, 33.54, 28.78), --Sandy BCSO
    },
    ["stash"] = {
-       [1] = vector3(453.075, -980.124, 30.889),
+       [1] = vector3(461.87, -999.65, 30.889), --Mission Row Locker Room
+       [2] = vector3(1854.08, 3687.84, 29.82), --Sandy BCSO Basement
    },
    ["impound"] = {
-       [1] = vector4(436.68, -1007.42, 27.32, 180.0),
-       [2] = vector4(-436.14, 5982.63, 31.34, 136.0),
+       [1] = vector4(425.74, -991.47, 25.7, 265.63), --Mission Row Garage
+       [2] = vector4(-476.35, 6032.31, 31.34, 219.64), --Paleto Bay Back lot
+       [3] = vector4(1874.73, 3705.21, 33.55, 208.8), --Sandy BCSO
    },
    ["helicopter"] = {
-       [1] = vector4(449.168, -981.325, 43.691, 87.234),
-       [2] = vector4(-475.43, 5988.353, 31.716, 31.34),
+       [1] = vector4(449.168, -981.325, 43.691, 87.234), --Mission Row Roof
+       [2] = vector4(-475.43, 5988.353, 31.716, 31.34), --Paleto Bay Back Helipad
+       [3] = vector4(1770.39, 3238.61, 42.17, 13.72), --Sandy Airfield
    },
    ["armory"] = {
-       [1] = vector3(462.23, -981.12, 30.68),
+       [1] = vector3(482.5, -995.26, 30.68), --Mission Row Major Crimes
+       [2] = vector3(1860.48, 3688.08, 34.22), --Sandy BCSO
    },
    ["trash"] = {
-       [1] = vector3(439.0907, -976.746, 30.776),
+       [1] = vector3(470.17, -988.37, 26.27),--Mission Row near Garage
+       [2] = vector3(1854.56, 3682.11, 34.27),--Sandy BCSO
    },
    ["fingerprint"] = {
-       [1] = vector3(460.9667, -989.180, 24.92),
+       [1] = vector3(474.31, -1013.34, 26.27),--Mission Row Mug Shot
+       [2] = vector3(1845.31, 3692.52, 34.22),--Sandy BCSO
    },
    ["evidence"] = {
-       [1] = vector3(442.1722, -996.067, 30.689),
-       [2] = vector3(451.7031, -973.232, 30.689),
-       [3] = vector3(455.1456, -985.462, 30.689),
+       [1] = vector3(474.24, -990.51, 26.27), --MRPD
+       [2] = vector3(474.85, -996.2, 26.27), --MRPD
+       [3] = vector3(472.73, -996.35, 26.27), --MRPD
+       [4] = vector3(1857.78, 3691.02, 29.82), --Sandy BCSO
    },
    ["stations"] = {
-       [1] = {label = "Police Station", coords = vector4(428.23, -984.28, 29.76, 3.5)},
+       [1] = {label = "MRPD", coords = vector4(428.23, -984.28, 29.76, 3.5)},
        [2] = {label = "Prison", coords = vector4(1845.903, 2585.873, 45.672, 272.249)},
-       [3] = {label = "Police Station Paleto", coords = vector4(-451.55, 6014.25, 31.716, 223.81)},
+       [3] = {label = "Paleto PD", coords = vector4(-451.55, 6014.25, 31.716, 223.81)},
+       [4] = {label = "Blaine County Sheriff", coords = vector4(1853.17, 3685.78, 34.22, 19.88)},
    },
 }
 
@@ -95,62 +104,198 @@ Config.SecurityCameras = {
 }
 
 Config.AuthorizedVehicles = {
-	-- Grade 0
+	-- Recruit
 	[0] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
-	},
-	-- Grade 1
-	[1] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+		["socharger"] = "BCSO Charger",
+		["sodurango"] = "BCSO Durango",
+		["soexplorer"] = "BCSO Explorer",
+		["sotaurus"] = "BCSO Taurus",
+		["sotruck"] = "BCSO Truck",
 
+		["pdcharger"] = "LSPD Charger",
+		["pdcvpi"] = "LSPD CVPI",
+		["pdexplorer"] = "LSPD Explorer",
+		["pdimpala"] = "LSPD Impala",
+		["pdtaurus"] = "LSPD Taurus",
+
+		["18charger"] = "SAHP Charger",
+		["18stealth"] = "SAHP Charger Stealth",
+		["hptahoe"] = "SAHP Tahoe",
+		["sahpmoto"] = "SAHP Harley",
+
+		["sscaprice"] = "SSPD Caprice",
+		["sscvpi"] = "SSPD CVPI",
+		["ssexplorer"] = "SSPD Explorer",
+		["chillad"] = "SAHP Truck",
 	},
-	-- Grade 2
+	-- Probationary
+	[1] = {
+		["socharger"] = "BCSO Charger",
+		["sodurango"] = "BCSO Durango",
+		["soexplorer"] = "BCSO Explorer",
+		["sotaurus"] = "BCSO Taurus",
+		["sotruck"] = "BCSO Truck",
+
+		["pdcharger"] = "LSPD Charger",
+		["pdcvpi"] = "LSPD CVPI",
+		["pdexplorer"] = "LSPD Explorer",
+		["pdimpala"] = "LSPD Impala",
+		["pdtaurus"] = "LSPD Taurus",
+
+		["18charger"] = "SAHP Charger",
+		["18stealth"] = "SAHP Charger Stealth",
+		["hptahoe"] = "SAHP Tahoe",
+		["sahpmoto"] = "SAHP Harley",
+
+		["sscaprice"] = "SSPD Caprice",
+		["sscvpi"] = "SSPD CVPI",
+		["ssexplorer"] = "SSPD Explorer",
+		["chillad"] = "SAHP Truck",
+	},
+	-- Officer
 	[2] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+		["socharger"] = "BCSO Charger",
+		["sodurango"] = "BCSO Durango",
+		["soexplorer"] = "BCSO Explorer",
+		["sotaurus"] = "BCSO Taurus",
+		["sotruck"] = "BCSO Truck",
+
+		["pdcharger"] = "LSPD Charger",
+		["pdcvpi"] = "LSPD CVPI",
+		["pdexplorer"] = "LSPD Explorer",
+		["pdimpala"] = "LSPD Impala",
+		["pdtaurus"] = "LSPD Taurus",
+
+		["18charger"] = "SAHP Charger",
+		["18stealth"] = "SAHP Charger Stealth",
+		["hptahoe"] = "SAHP Tahoe",
+		["sahpmoto"] = "SAHP Harley",
+
+		["sscaprice"] = "SSPD Caprice",
+		["sscvpi"] = "SSPD CVPI",
+		["ssexplorer"] = "SSPD Explorer",
+		["chillad"] = "SAHP Truck",
 	},
-	-- Grade 3
+	-- Corporal
 	[3] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
+		["socharger"] = "BCSO Charger",
+		["sodurango"] = "BCSO Durango",
+		["soexplorer"] = "BCSO Explorer",
+		["sotaurus"] = "BCSO Taurus",
+		["sotruck"] = "BCSO Truck",
+
+		["pdcharger"] = "LSPD Charger",
+		["pdcvpi"] = "LSPD CVPI",
+		["pdexplorer"] = "LSPD Explorer",
+		["pdimpala"] = "LSPD Impala",
+		["pdtaurus"] = "LSPD Taurus",
+
+		["18charger"] = "SAHP Charger",
+		["18stealth"] = "SAHP Charger Stealth",
+		["hptahoe"] = "SAHP Tahoe",
+		["sahpmoto"] = "SAHP Harley",
+
+		["sscaprice"] = "SSPD Caprice",
+		["sscvpi"] = "SSPD CVPI",
+		["ssexplorer"] = "SSPD Explorer",
+		["chillad"] = "SAHP Truck",
 	},
-	-- Grade 4
+	-- Sergeant
 	[4] = {
-		["police"] = "Police Car 1",
-		["police2"] = "Police Car 2",
-		["police3"] = "Police Car 3",
-		["police4"] = "Police Car 4",
-		["policeb"] = "Police Car 5",
-		["policet"] = "Police Car 6",
-		["sheriff"] = "Sheriff Car 1",
-		["sheriff2"] = "Sheriff Car 2",
-	}
+		["socharger"] = "BCSO Charger",
+		["sodurango"] = "BCSO Durango",
+		["soexplorer"] = "BCSO Explorer",
+		["sotaurus"] = "BCSO Taurus",
+		["sotruck"] = "BCSO Truck",
+
+		["pdcharger"] = "LSPD Charger",
+		["pdcvpi"] = "LSPD CVPI",
+		["pdexplorer"] = "LSPD Explorer",
+		["pdimpala"] = "LSPD Impala",
+		["pdtaurus"] = "LSPD Taurus",
+
+		["18charger"] = "SAHP Charger",
+		["18stealth"] = "SAHP Charger Stealth",
+		["hptahoe"] = "SAHP Tahoe",
+		["sahpmoto"] = "SAHP Harley",
+
+		["sscaprice"] = "SSPD Caprice",
+		["sscvpi"] = "SSPD CVPI",
+		["ssexplorer"] = "SSPD Explorer",
+		["chillad"] = "SAHP Truck",
+	},
+    --Lieutenant
+    [5] = {
+		["socharger"] = "BCSO Charger",
+		["sodurango"] = "BCSO Durango",
+		["soexplorer"] = "BCSO Explorer",
+		["sotaurus"] = "BCSO Taurus",
+		["sotruck"] = "BCSO Truck",
+
+		["pdcharger"] = "LSPD Charger",
+		["pdcvpi"] = "LSPD CVPI",
+		["pdexplorer"] = "LSPD Explorer",
+		["pdimpala"] = "LSPD Impala",
+		["pdtaurus"] = "LSPD Taurus",
+
+		["18charger"] = "SAHP Charger",
+		["18stealth"] = "SAHP Charger Stealth",
+		["hptahoe"] = "SAHP Tahoe",
+		["sahpmoto"] = "SAHP Harley",
+
+		["sscaprice"] = "SSPD Caprice",
+		["sscvpi"] = "SSPD CVPI",
+		["ssexplorer"] = "SSPD Explorer",
+		["chillad"] = "SAHP Truck",
+	},
+    --Captain
+    [6] = {
+		["socharger"] = "BCSO Charger",
+		["sodurango"] = "BCSO Durango",
+		["soexplorer"] = "BCSO Explorer",
+		["sotaurus"] = "BCSO Taurus",
+		["sotruck"] = "BCSO Truck",
+
+		["pdcharger"] = "LSPD Charger",
+		["pdcvpi"] = "LSPD CVPI",
+		["pdexplorer"] = "LSPD Explorer",
+		["pdimpala"] = "LSPD Impala",
+		["pdtaurus"] = "LSPD Taurus",
+
+		["18charger"] = "SAHP Charger",
+		["18stealth"] = "SAHP Charger Stealth",
+		["hptahoe"] = "SAHP Tahoe",
+		["sahpmoto"] = "SAHP Harley",
+
+		["sscaprice"] = "SSPD Caprice",
+		["sscvpi"] = "SSPD CVPI",
+		["ssexplorer"] = "SSPD Explorer",
+		["chillad"] = "SAHP Truck",
+	},
+    --Chief
+    [7] = {
+		["socharger"] = "BCSO Charger",
+		["sodurango"] = "BCSO Durango",
+		["soexplorer"] = "BCSO Explorer",
+		["sotaurus"] = "BCSO Taurus",
+		["sotruck"] = "BCSO Truck",
+
+		["pdcharger"] = "LSPD Charger",
+		["pdcvpi"] = "LSPD CVPI",
+		["pdexplorer"] = "LSPD Explorer",
+		["pdimpala"] = "LSPD Impala",
+		["pdtaurus"] = "LSPD Taurus",
+
+		["18charger"] = "SAHP Charger",
+		["18stealth"] = "SAHP Charger Stealth",
+		["hptahoe"] = "SAHP Tahoe",
+		["sahpmoto"] = "SAHP Harley",
+
+		["sscaprice"] = "SSPD Caprice",
+		["sscvpi"] = "SSPD CVPI",
+		["ssexplorer"] = "SSPD Explorer",
+		["chillad"] = "SAHP Truck",
+	},
 }
 
 Config.WhitelistedVehicles = {}
@@ -207,7 +352,7 @@ Config.Items = {
     slots = 30,
     items = {
         [1] = {
-            name = "weapon_pistol",
+            name = "weapon_combatpistol",
             price = 0,
             amount = 1,
             info = {
@@ -287,7 +432,7 @@ Config.Items = {
         [7] = {
             name = "pistol_ammo",
             price = 0,
-            amount = 5,
+            amount = 10000,
             info = {},
             type = "item",
             slot = 7,
@@ -296,7 +441,7 @@ Config.Items = {
         [8] = {
             name = "smg_ammo",
             price = 0,
-            amount = 5,
+            amount = 10000,
             info = {},
             type = "item",
             slot = 8,
@@ -305,7 +450,7 @@ Config.Items = {
         [9] = {
             name = "shotgun_ammo",
             price = 0,
-            amount = 5,
+            amount = 10000,
             info = {},
             type = "item",
             slot = 9,
@@ -314,7 +459,7 @@ Config.Items = {
         [10] = {
             name = "rifle_ammo",
             price = 0,
-            amount = 5,
+            amount = 10000,
             info = {},
             type = "item",
             slot = 10,
@@ -323,7 +468,7 @@ Config.Items = {
         [11] = {
             name = "handcuffs",
             price = 0,
-            amount = 1,
+            amount = 10000,
             info = {},
             type = "item",
             slot = 11,
@@ -332,7 +477,7 @@ Config.Items = {
         [12] = {
             name = "weapon_flashlight",
             price = 0,
-            amount = 1,
+            amount = 10000,
             info = {},
             type = "weapon",
             slot = 12,
@@ -341,7 +486,7 @@ Config.Items = {
         [13] = {
             name = "empty_evidence_bag",
             price = 0,
-            amount = 50,
+            amount = 10000,
             info = {},
             type = "item",
             slot = 13,
@@ -350,7 +495,7 @@ Config.Items = {
         [14] = {
             name = "police_stormram",
             price = 0,
-            amount = 50,
+            amount = 10000,
             info = {},
             type = "item",
             slot = 14,
@@ -359,7 +504,7 @@ Config.Items = {
         [15] = {
             name = "armor",
             price = 0,
-            amount = 50,
+            amount = 10000,
             info = {},
             type = "item",
             slot = 15,
@@ -368,7 +513,7 @@ Config.Items = {
         [16] = {
             name = "radio",
             price = 0,
-            amount = 50,
+            amount = 10000,
             info = {},
             type = "item",
             slot = 16,
@@ -377,7 +522,7 @@ Config.Items = {
         [17] = {
             name = "heavyarmor",
             price = 0,
-            amount = 50,
+            amount = 10000,
             info = {},
             type = "item",
             slot = 17,
