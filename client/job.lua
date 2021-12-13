@@ -813,3 +813,10 @@ CreateThread(function()
         Wait(sleep)
     end
 end)
+
+RegisterCommand('duty', function()
+    onDuty = not onDuty
+    TriggerServerEvent("police:server:UpdateCurrentCops")
+    TriggerServerEvent("QBCore:ToggleDuty")
+    TriggerServerEvent("police:server:UpdateBlips")
+end)
