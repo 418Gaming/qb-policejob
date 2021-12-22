@@ -117,10 +117,12 @@ Config.AuthorizedVehicles = {
 		["pdexplorer"] = "LSPD Explorer",
 		["pdimpala"] = "LSPD Impala",
 		["pdtaurus"] = "LSPD Taurus",
+        ["20explo"] = "LSPD Traffic Explorer",
 
 		["18charger"] = "SAHP Charger",
 		["18stealth"] = "SAHP Charger Stealth",
-		["hptahoe"] = "SAHP Tahoe",
+		["hptahoe"] = "SAHP 21 Tahoe",
+        ["hoe"] = "SAHP 19 Tahoe",
 		["sahpmoto"] = "SAHP Harley",
 
 		["sscaprice"] = "SSPD Caprice",
@@ -141,10 +143,12 @@ Config.AuthorizedVehicles = {
 		["pdexplorer"] = "LSPD Explorer",
 		["pdimpala"] = "LSPD Impala",
 		["pdtaurus"] = "LSPD Taurus",
+        ["20explo"] = "LSPD Traffic Explorer",
 
 		["18charger"] = "SAHP Charger",
 		["18stealth"] = "SAHP Charger Stealth",
-		["hptahoe"] = "SAHP Tahoe",
+		["hptahoe"] = "SAHP 21 Tahoe",
+        ["hoe"] = "SAHP 19 Tahoe",
 		["sahpmoto"] = "SAHP Harley",
 
 		["sscaprice"] = "SSPD Caprice",
@@ -165,10 +169,12 @@ Config.AuthorizedVehicles = {
 		["pdexplorer"] = "LSPD Explorer",
 		["pdimpala"] = "LSPD Impala",
 		["pdtaurus"] = "LSPD Taurus",
+        ["20explo"] = "LSPD Traffic Explorer",
 
 		["18charger"] = "SAHP Charger",
 		["18stealth"] = "SAHP Charger Stealth",
-		["hptahoe"] = "SAHP Tahoe",
+		["hptahoe"] = "SAHP 21 Tahoe",
+        ["hoe"] = "SAHP 19 Tahoe",
 		["sahpmoto"] = "SAHP Harley",
 
 		["sscaprice"] = "SSPD Caprice",
@@ -189,10 +195,12 @@ Config.AuthorizedVehicles = {
 		["pdexplorer"] = "LSPD Explorer",
 		["pdimpala"] = "LSPD Impala",
 		["pdtaurus"] = "LSPD Taurus",
+        ["20explo"] = "LSPD Traffic Explorer",
 
 		["18charger"] = "SAHP Charger",
 		["18stealth"] = "SAHP Charger Stealth",
-		["hptahoe"] = "SAHP Tahoe",
+		["hptahoe"] = "SAHP 21 Tahoe",
+        ["hoe"] = "SAHP 19 Tahoe",
 		["sahpmoto"] = "SAHP Harley",
 
 		["sscaprice"] = "SSPD Caprice",
@@ -213,10 +221,12 @@ Config.AuthorizedVehicles = {
 		["pdexplorer"] = "LSPD Explorer",
 		["pdimpala"] = "LSPD Impala",
 		["pdtaurus"] = "LSPD Taurus",
+        ["20explo"] = "LSPD Traffic Explorer",
 
 		["18charger"] = "SAHP Charger",
 		["18stealth"] = "SAHP Charger Stealth",
-		["hptahoe"] = "SAHP Tahoe",
+		["hptahoe"] = "SAHP 21 Tahoe",
+        ["hoe"] = "SAHP 19 Tahoe",
 		["sahpmoto"] = "SAHP Harley",
 
 		["sscaprice"] = "SSPD Caprice",
@@ -237,10 +247,12 @@ Config.AuthorizedVehicles = {
 		["pdexplorer"] = "LSPD Explorer",
 		["pdimpala"] = "LSPD Impala",
 		["pdtaurus"] = "LSPD Taurus",
+        ["20explo"] = "LSPD Traffic Explorer",
 
 		["18charger"] = "SAHP Charger",
 		["18stealth"] = "SAHP Charger Stealth",
-		["hptahoe"] = "SAHP Tahoe",
+		["hptahoe"] = "SAHP 21 Tahoe",
+        ["hoe"] = "SAHP 19 Tahoe",
 		["sahpmoto"] = "SAHP Harley",
 
 		["sscaprice"] = "SSPD Caprice",
@@ -261,10 +273,12 @@ Config.AuthorizedVehicles = {
 		["pdexplorer"] = "LSPD Explorer",
 		["pdimpala"] = "LSPD Impala",
 		["pdtaurus"] = "LSPD Taurus",
+        ["20explo"] = "LSPD Traffic Explorer",
 
 		["18charger"] = "SAHP Charger",
 		["18stealth"] = "SAHP Charger Stealth",
-		["hptahoe"] = "SAHP Tahoe",
+		["hptahoe"] = "SAHP 21 Tahoe",
+        ["hoe"] = "SAHP 19 Tahoe",
 		["sahpmoto"] = "SAHP Harley",
 
 		["sscaprice"] = "SSPD Caprice",
@@ -285,10 +299,12 @@ Config.AuthorizedVehicles = {
 		["pdexplorer"] = "LSPD Explorer",
 		["pdimpala"] = "LSPD Impala",
 		["pdtaurus"] = "LSPD Taurus",
+        ["20explo"] = "LSPD Traffic Explorer",
 
 		["18charger"] = "SAHP Charger",
 		["18stealth"] = "SAHP Charger Stealth",
-		["hptahoe"] = "SAHP Tahoe",
+		["hptahoe"] = "SAHP 21 Tahoe",
+        ["hoe"] = "SAHP 19 Tahoe",
 		["sahpmoto"] = "SAHP Harley",
 
 		["sscaprice"] = "SSPD Caprice",
