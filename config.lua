@@ -106,37 +106,18 @@ Config.SecurityCameras = {
 Config.AuthorizedVehicles = {
 	-- Recruit
 	[0] = {
-		["socharger"] = "BCSO Charger",
-		["sodurango"] = "BCSO Durango",
-		["soexplorer"] = "BCSO Explorer",
-		["sotaurus"] = "BCSO Taurus",
-		["sotruck"] = "BCSO Truck",
-
-		["pdcharger"] = "LSPD Charger",
-		["pdcvpi"] = "LSPD CVPI",
-		["pdexplorer"] = "LSPD Explorer",
-		["pdimpala"] = "LSPD Impala",
-		["pdtaurus"] = "LSPD Taurus",
-        ["20explo"] = "LSPD Traffic Explorer",
-
-		["18charger"] = "SAHP Charger",
-		["18stealth"] = "SAHP Charger Stealth",
-		["hptahoe"] = "SAHP 21 Tahoe",
-        ["hoe"] = "SAHP 19 Tahoe",
-		["sahpmoto"] = "SAHP Harley",
-
-		["sscaprice"] = "SSPD Caprice",
-		["sscvpi"] = "SSPD CVPI",
-		["ssexplorer"] = "SSPD Explorer",
-		["chillad"] = "SAHP Truck",
+        ["trainingcvpi"] = "Training Car"
 	},
 	-- Probationary
 	[1] = {
-		["socharger"] = "BCSO Charger",
-		["sodurango"] = "BCSO Durango",
-		["soexplorer"] = "BCSO Explorer",
-		["sotaurus"] = "BCSO Taurus",
-		["sotruck"] = "BCSO Truck",
+		["legacy7"] = "BCSO Caprice",
+		["legacy6"] = "BCSO 19 Tahoe",
+		["defendchrgr14"] = "BCSO 14 Charger",
+		["defendcvpi"] = "BCSO CVPI",
+		["defendfpiu"] = "BCSO FPIU",
+        ["defendtahoe13"] = "BCSO 13 Tahoe",
+        ["defendtahoek9"] = "BCSO K-9 Tahoe",
+        ["defendf150"] = "BCSO F-150",
 
 		["pdcharger"] = "LSPD Charger",
 		["pdcvpi"] = "LSPD CVPI",
@@ -158,11 +139,14 @@ Config.AuthorizedVehicles = {
 	},
 	-- Officer
 	[2] = {
-		["socharger"] = "BCSO Charger",
-		["sodurango"] = "BCSO Durango",
-		["soexplorer"] = "BCSO Explorer",
-		["sotaurus"] = "BCSO Taurus",
-		["sotruck"] = "BCSO Truck",
+		["legacy7"] = "BCSO Caprice",
+		["legacy6"] = "BCSO 19 Tahoe",
+		["defendchrgr14"] = "BCSO 14 Charger",
+		["defendcvpi"] = "BCSO CVPI",
+		["defendfpiu"] = "BCSO FPIU",
+        ["defendtahoe13"] = "BCSO 13 Tahoe",
+        ["defendtahoek9"] = "BCSO K-9 Tahoe",
+        ["defendf150"] = "BCSO F-150",
 
 		["pdcharger"] = "LSPD Charger",
 		["pdcvpi"] = "LSPD CVPI",
@@ -184,11 +168,15 @@ Config.AuthorizedVehicles = {
 	},
 	-- Corporal
 	[3] = {
-		["socharger"] = "BCSO Charger",
-		["sodurango"] = "BCSO Durango",
-		["soexplorer"] = "BCSO Explorer",
-		["sotaurus"] = "BCSO Taurus",
-		["sotruck"] = "BCSO Truck",
+		["legacy7"] = "BCSO Caprice",
+		["legacy6"] = "BCSO 19 Tahoe",
+		["defendchrgr14"] = "BCSO 14 Charger",
+		["defendcvpi"] = "BCSO CVPI",
+		["defendfpiu"] = "BCSO FPIU",
+        ["defendtahoe13"] = "BCSO 13 Tahoe",
+        ["defendtahoek9"] = "BCSO K-9 Tahoe",
+        ["defendf150"] = "BCSO F-150",
+        ["defendumtahoe"] = "BCSO Unmarked Tahoe",
 
 		["pdcharger"] = "LSPD Charger",
 		["pdcvpi"] = "LSPD CVPI",
@@ -210,11 +198,15 @@ Config.AuthorizedVehicles = {
 	},
 	-- Sergeant
 	[4] = {
-		["socharger"] = "BCSO Charger",
-		["sodurango"] = "BCSO Durango",
-		["soexplorer"] = "BCSO Explorer",
-		["sotaurus"] = "BCSO Taurus",
-		["sotruck"] = "BCSO Truck",
+		["legacy7"] = "BCSO Caprice",
+		["legacy6"] = "BCSO 19 Tahoe",
+		["defendchrgr14"] = "BCSO 14 Charger",
+		["defendcvpi"] = "BCSO CVPI",
+		["defendfpiu"] = "BCSO FPIU",
+        ["defendtahoe13"] = "BCSO 13 Tahoe",
+        ["defendtahoek9"] = "BCSO K-9 Tahoe",
+        ["defendf150"] = "BCSO F-150",
+        ["defendumtahoe"] = "BCSO Unmarked Tahoe",
 
 		["pdcharger"] = "LSPD Charger",
 		["pdcvpi"] = "LSPD CVPI",
@@ -236,11 +228,15 @@ Config.AuthorizedVehicles = {
 	},
     --Lieutenant
     [5] = {
-		["socharger"] = "BCSO Charger",
-		["sodurango"] = "BCSO Durango",
-		["soexplorer"] = "BCSO Explorer",
-		["sotaurus"] = "BCSO Taurus",
-		["sotruck"] = "BCSO Truck",
+		["legacy7"] = "BCSO Caprice",
+		["legacy6"] = "BCSO 19 Tahoe",
+		["defendchrgr14"] = "BCSO 14 Charger",
+		["defendcvpi"] = "BCSO CVPI",
+		["defendfpiu"] = "BCSO FPIU",
+        ["defendtahoe13"] = "BCSO 13 Tahoe",
+        ["defendtahoek9"] = "BCSO K-9 Tahoe",
+        ["defendf150"] = "BCSO F-150",
+        ["defendumtahoe"] = "BCSO Unmarked Tahoe",
 
 		["pdcharger"] = "LSPD Charger",
 		["pdcvpi"] = "LSPD CVPI",
@@ -262,11 +258,15 @@ Config.AuthorizedVehicles = {
 	},
     --Captain
     [6] = {
-		["socharger"] = "BCSO Charger",
-		["sodurango"] = "BCSO Durango",
-		["soexplorer"] = "BCSO Explorer",
-		["sotaurus"] = "BCSO Taurus",
-		["sotruck"] = "BCSO Truck",
+		["legacy7"] = "BCSO Caprice",
+		["legacy6"] = "BCSO 19 Tahoe",
+		["defendchrgr14"] = "BCSO 14 Charger",
+		["defendcvpi"] = "BCSO CVPI",
+		["defendfpiu"] = "BCSO FPIU",
+        ["defendtahoe13"] = "BCSO 13 Tahoe",
+        ["defendtahoek9"] = "BCSO K-9 Tahoe",
+        ["defendf150"] = "BCSO F-150",
+        ["defendumtahoe"] = "BCSO Unmarked Tahoe",
 
 		["pdcharger"] = "LSPD Charger",
 		["pdcvpi"] = "LSPD CVPI",
@@ -288,11 +288,15 @@ Config.AuthorizedVehicles = {
 	},
     --Chief
     [7] = {
-		["socharger"] = "BCSO Charger",
-		["sodurango"] = "BCSO Durango",
-		["soexplorer"] = "BCSO Explorer",
-		["sotaurus"] = "BCSO Taurus",
-		["sotruck"] = "BCSO Truck",
+		["legacy7"] = "BCSO Caprice",
+		["legacy6"] = "BCSO 19 Tahoe",
+		["defendchrgr14"] = "BCSO 14 Charger",
+		["defendcvpi"] = "BCSO CVPI",
+		["defendfpiu"] = "BCSO FPIU",
+        ["defendtahoe13"] = "BCSO 13 Tahoe",
+        ["defendtahoek9"] = "BCSO K-9 Tahoe",
+        ["defendf150"] = "BCSO F-150",
+        ["defendumtahoe"] = "BCSO Unmarked Tahoe",
 
 		["pdcharger"] = "LSPD Charger",
 		["pdcvpi"] = "LSPD CVPI",
@@ -379,7 +383,7 @@ Config.Items = {
             },
             type = "weapon",
             slot = 1,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7}
         },
         [2] = {
             name = "weapon_stungun",
@@ -390,7 +394,7 @@ Config.Items = {
             },
             type = "weapon",
             slot = 2,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7}
         },
         [3] = {
             name = "weapon_pumpshotgun",
@@ -404,7 +408,7 @@ Config.Items = {
             },
             type = "weapon",
             slot = 3,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7}
         },
         [4] = {
             name = "weapon_smg",
@@ -419,7 +423,7 @@ Config.Items = {
             },
             type = "weapon",
             slot = 4,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7}
         },
         [5] = {
             name = "weapon_carbinerifle",
@@ -434,7 +438,7 @@ Config.Items = {
             },
             type = "weapon",
             slot = 5,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7}
         },
         [6] = {
             name = "weapon_nightstick",
@@ -443,7 +447,7 @@ Config.Items = {
             info = {},
             type = "weapon",
             slot = 6,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7}
         },
         [7] = {
             name = "pistol_ammo",
@@ -452,7 +456,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 7,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7}
         },
         [8] = {
             name = "smg_ammo",
@@ -461,7 +465,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 8,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7}
         },
         [9] = {
             name = "shotgun_ammo",
@@ -470,7 +474,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 9,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7}
         },
         [10] = {
             name = "rifle_ammo",
@@ -479,7 +483,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 10,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7}
         },
         [11] = {
             name = "handcuffs",
@@ -488,7 +492,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 11,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7}
         },
         [12] = {
             name = "weapon_flashlight",
@@ -497,7 +501,7 @@ Config.Items = {
             info = {},
             type = "weapon",
             slot = 12,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7}
         },
         [13] = {
             name = "empty_evidence_bag",
@@ -506,7 +510,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 13,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7}
         },
         [14] = {
             name = "police_stormram",
@@ -515,7 +519,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 14,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7}
         },
         [15] = {
             name = "armor",
@@ -524,7 +528,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 15,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7}
         },
         [16] = {
             name = "radio",
@@ -533,7 +537,7 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 16,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7}
         },
         [17] = {
             name = "heavyarmor",
@@ -542,7 +546,16 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 17,
-            authorizedJobGrades = {0, 1, 2, 3, 4}
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7}
+        },
+        [18] = {
+            name = "specialbadge",
+            price = 0,
+            amount = 10000,
+            info = {},
+            type = "item",
+            slot = 18,
+            authorizedJobGrades = {1, 2, 3, 4, 5, 6, 7}
         }
     }
 }
