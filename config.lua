@@ -13,11 +13,13 @@ Config.Locations = {
        [1] = vector3(468.5, -978.23, 26.27), --Mission Row PD Bulletin near Garage
        [2] = vector3(-449.811, 6012.909, 31.815), --Paleto Bay PD Front Desk
        [3] = vector3(1852.07, 3688.02, 34.22), --Sandy BCSO
+       [4] = vector3(1543.99, 816.27, 77.66) --SAHP
    },
    ["vehicle"] = {
        [1] = vector4(458.73, -994.36, 25.7, 3.01), --Mission Row Garage
        [2] = vector4(-455.39, 6002.02, 31.34, 87.93), --Paleto Bay Back lot
        [3] = vector4(1881.39, 3692.77, 33.54, 28.78), --Sandy BCSO
+       [4] = vector4(1553.59, 812.04, 77.06, 9.24), --SAHP
    },
    ["stash"] = {
        [1] = vector3(461.87, -999.65, 30.889), --Mission Row Locker Room
@@ -27,6 +29,7 @@ Config.Locations = {
        [1] = vector4(425.74, -991.47, 25.7, 265.63), --Mission Row Garage
        [2] = vector4(-476.35, 6032.31, 31.34, 219.64), --Paleto Bay Back lot
        [3] = vector4(1874.73, 3705.21, 33.55, 208.8), --Sandy BCSO
+       [4] = vector4(1547.86, 801.85, 77.01, 10.07), --SAHP
    },
    ["helicopter"] = {
        [1] = vector4(449.168, -981.325, 43.691, 87.234), --Mission Row Roof
@@ -36,26 +39,32 @@ Config.Locations = {
    ["armory"] = {
        [1] = vector3(482.5, -995.26, 30.68), --Mission Row Major Crimes
        [2] = vector3(1860.48, 3688.08, 34.22), --Sandy BCSO
+       [3] = vector3(1550.72, 842.02, 77.66),--SAHP
+       [4] = vector3(-437.75, 5988.34, 31.72),--PBPD
    },
    ["trash"] = {
        [1] = vector3(470.17, -988.37, 26.27),--Mission Row near Garage
        [2] = vector3(1854.56, 3682.11, 34.27),--Sandy BCSO
+       [3] = vector3(1551.36, 822.37, 77.66),--SAHP
    },
    ["fingerprint"] = {
        [1] = vector3(474.31, -1013.34, 26.27),--Mission Row Mug Shot
        [2] = vector3(1845.31, 3692.52, 34.22),--Sandy BCSO
+       [3] = vector3(1555.0, 834.67, 77.66),--SAHP
    },
    ["evidence"] = {
        [1] = vector3(474.24, -990.51, 26.27), --MRPD
        [2] = vector3(474.85, -996.2, 26.27), --MRPD
        [3] = vector3(472.73, -996.35, 26.27), --MRPD
        [4] = vector3(1857.78, 3691.02, 29.82), --Sandy BCSO
+       [5] = vector3(1547.68, 827.12, 82.13), --SAHP
    },
    ["stations"] = {
        [1] = {label = "MRPD", coords = vector4(428.23, -984.28, 29.76, 3.5)},
        [2] = {label = "Prison", coords = vector4(1845.903, 2585.873, 45.672, 272.249)},
        [3] = {label = "Paleto PD", coords = vector4(-451.55, 6014.25, 31.716, 223.81)},
        [4] = {label = "Blaine County Sheriff", coords = vector4(1853.17, 3685.78, 34.22, 19.88)},
+       [5] = {label = "SAHP", coords = vector4(1550.65, 841.99, 77.66, 318.87)},
    },
 }
 
@@ -106,7 +115,7 @@ Config.SecurityCameras = {
 Config.AuthorizedVehicles = {
 	-- Recruit
 	[0] = {
-        ["trainingcvpi"] = "Training Car"
+        ["trainingvic"] = "Training Car"
 	},
 	-- Probationary
 	[1] = {
@@ -555,6 +564,15 @@ Config.Items = {
             info = {},
             type = "item",
             slot = 18,
+            authorizedJobGrades = {1, 2, 3, 4, 5, 6, 7}
+        },
+        [19] = {
+            name = "weapon_flare",
+            price = 0,
+            amount = 10000,
+            info = {},
+            type = "item",
+            slot = 19,
             authorizedJobGrades = {1, 2, 3, 4, 5, 6, 7}
         }
     }
