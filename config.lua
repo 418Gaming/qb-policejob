@@ -574,7 +574,16 @@ Config.Items = {
             type = "item",
             slot = 19,
             authorizedJobGrades = {1, 2, 3, 4, 5, 6, 7}
-        }
+        },
+        [20] = {
+            name = "clothingpack",
+            price = 0,
+            amount = 10000,
+            info = {},
+            type = "item",
+            slot = 20,
+            authorizedJobGrades = {0, 1, 2, 3, 4, 5, 6, 7}
+        },
     }
 }
 
