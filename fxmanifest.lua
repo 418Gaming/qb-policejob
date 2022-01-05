@@ -11,7 +11,7 @@ client_scripts {
 	'client/camera.lua',
 	'client/interactions.lua',
 	'client/job.lua',
-	'client/heli.lua',
+	--'client/heli.lua',
 	--'client/anpr.lua',
 	'client/evidence.lua',
 	'client/objects.lua',

@@ -70,7 +70,7 @@ Config.Locations = {
 
 Config.ArmoryWhitelist = {}
 
-Config.Helicopter = "POLMAV"
+Config.Helicopter = "helo"
 
 Config.SecurityCameras = {
     hideradar = false,
